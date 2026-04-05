@@ -5,15 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>7 peer-reviewed publications (4 as first author), spanning <em>Journal of Fluid Mechanics</em>, <em>Journal of Computational Physics</em>, <em>Advanced Science</em>, and <em>Soft Matter</em>.</p>
+<p>You can also find my publications on <a href="https://orcid.org/0000-0002-3248-7584">my ORCID profile</a>.</p>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -31,6 +29,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
