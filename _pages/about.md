@@ -11,7 +11,7 @@ I am a **PhD Researcher in Fluid Dynamics** at the [Physics of Fluids Department
 
 My work focuses on **evaporation-driven flows and interfacial phenomena in multicomponent droplets at the microscale**, investigated through computational fluid dynamics (CFD) and the finite element method (FEM). I have a strong interest in building physics-based simulation frameworks and translating fundamental fluid dynamics into robust numerical tools for industrial R&D.
 
-I am detail-oriented and genuinely curious — I find that the best insights come from conversations, not just calculations. Outside the lab, I stay active through CrossFit, hiking, and cycling.
+I am detail-oriented and genuinely curious — I find that the best insights come from conversations, not just calculations. When not staring at my computer, I stay active through CrossFit, hiking, cycling, team sports and other outdoor activities.
 
 *Expected PhD completion: September 2026.*
 
