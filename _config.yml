@@ -15,7 +15,7 @@ author:
   name             : "Duarte Rocha"
   pronouns         :
   bio              : "PhD Researcher in Fluid Dynamics. Specialising in evaporation-driven flows and interfacial phenomena in multicomponent droplets, using CFD and FEM."
-  location         : "Enschede, The Netherlands"
+  location         : "Utrecht, The Netherlands"
   employer         : "University of Twente"
   uri              :
   email            : "duartefgrocha@gmail.com"
@@ -23,14 +23,14 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=0pCScr8AAAAJ&hl=en"
   inspire-hep      :
   impactstory      :
   orcid            : "https://orcid.org/0000-0002-3248-7584"
   semantic         :
   ssrn             :
   pubmed           :
-  researchgate     :
+  researchgate     : "https://www.researchgate.net/profile/Duarte-Rocha-5/research"
   scopus           :
   zotero           :
 
@@ -44,7 +44,7 @@ author:
 
   # Social media
   linkedin         : "duarterocha17"
-  bluesky          :
+  bluesky          : "@duarterocha17.bsky.social"
   twitter          :
 
 # Publication Category
