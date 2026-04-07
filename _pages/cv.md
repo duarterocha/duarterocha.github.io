@@ -27,7 +27,7 @@ redirect_from:
 * **Researcher PhD Student** — Physics of Fluids Dept., University of Twente *(Sep 2022 – Present)*
   * Supervisors: Christian Diddens and Detlef Lohse. Part of the Industrial Partnership Programme *"Fundamental Fluid Dynamics Challenges in Inkjet Printing"*, in collaboration with Canon Production Printing.
   * Co-developed [PYOOMPH](https://pyoomph.github.io/), an open-source object-oriented multi-physics FEM framework in Python, using Git for version-controlled collaborative development.
-  * Published 7 peer-reviewed papers (4 as first author) in *J. Fluid Mech.*, *J. Comp. Phys.*, *Advanced Science* and *Soft Matter*; presented at 7 international conferences, 1 supercomputing summer school, and 3 specialist fluid dynamics courses.
+  * Published 7 peer-reviewed papers (3 as first author) in *J. Fluid Mech.*, *J. Comp. Phys.*, *Advanced Science* and *Soft Matter*; presented at 7 international conferences, 1 supercomputing summer school, and 3 specialist fluid dynamics courses.
   * Developed high-fidelity simulations of microscale droplet physics (µm-scale), resolving Marangoni instabilities and symmetry-breaking transitions.
 
 * **Master's Thesis Research Fellow** — Transport Phenomena Research Center, University of Porto *(Jan 2022 – Jul 2022)*
@@ -64,5 +64,5 @@ redirect_from:
 ---
 ## Teaching
 <ul>{% for post in site.teaching reversed %}
-  {% include archive-single-teaching-cv.html %}
+  {% include archive-single-cv.html %}
 {% endfor %}</ul>

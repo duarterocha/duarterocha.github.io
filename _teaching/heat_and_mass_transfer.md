@@ -22,6 +22,5 @@ The course covers the fundamental governing equations and solution methods for:
 
 - Conductive, convective, and radiative heat transfer
 - Species diffusion and convective mass transport
-- Coupled heat and mass transfer (evaporation, condensation)
 - Dimensional analysis and similarity solutions
 - Numerical approaches to transport problems
