@@ -5,7 +5,7 @@ title                    : "Duarte Rocha"
 title_separator          : "-"
 name                     : &name "Duarte Rocha"
 description              : &description "PhD Researcher in Fluid Dynamics at the University of Twente"
-url                      : https://duarterocha.github.io
+url                      : "https://duarterocha.github.io"
 baseurl                  : ""
 repository               : "duarterocha/duarterocha.github.io"
 
