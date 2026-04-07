@@ -1,17 +1,91 @@
-{% include base_path %}
+<!-- Custom style overrides -->
+<style>
+  /* ── MASTHEAD: navy background across full bar ── */
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav,
+  .greedy-nav button,
+  .masthead__menu-item {
+    background: #1a3a5c !important;
+  }
+  .masthead::after {
+    display: none !important;
+  }
+  .greedy-nav a,
+  .masthead__menu-item a,
+  .masthead__menu-item--lg a {
+    color: #d6e4f0 !important;
+  }
+  .greedy-nav a:hover,
+  .masthead__menu-item a:hover {
+    color: #ffffff !important;
+  }
+  /* Hide the animated underline hover bar (wrong colour on dark bg) */
+  .greedy-nav .visible-links a:before {
+    display: none !important;
+  }
+  /* Active/selected nav item */
+  .masthead__menu-item.selected a {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+    font-weight: 700;
+  }
+  /* Theme toggle icon */
+  #theme-icon { color: #d6e4f0 !important; }
 
-<!-- start custom head snippets -->
+  /* ── NO UNDERLINES on links globally ── */
+  a,
+  a:hover,
+  a:visited,
+  .page__content a,
+  .page__content a:hover {
+    text-decoration: none !important;
+  }
+  /* Subtle bottom border only in body text for readability */
+  .page__content p a,
+  .page__content li a {
+    border-bottom: 1px solid var(--global-link-color);
+  }
+  .page__content p a:hover,
+  .page__content li a:hover {
+    border-bottom-color: var(--global-link-color-hover);
+  }
 
-<!-- Support for Academicons -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+  /* ── JUSTIFY TEXT everywhere in page content ── */
+  .page__content p,
+  .page__content li,
+  .author__bio,
+  .archive__item-excerpt {
+    text-align: justify;
+    hyphens: auto;
+  }
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+  /* ── VERTICAL DIVIDER: right edge of sidebar ── */
+  @media (min-width: 1024px) {
+    .sidebar {
+      border-right: 1px solid var(--global-border-color);
+      padding-right: 1em;
+    }
+    #main {
+      padding-left: 2em;
+    }
+  }
 
-<!-- end custom head snippets -->
+  /* ── GENERAL POLISH ── */
+  /* Slightly more breathing room in sidebar */
+  .author__content {
+    padding-top: 0.5em;
+  }
+  .author__bio {
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+  /* Soften archive item titles */
+  .archive__item-title a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
+  .archive__item-title a:hover {
+    color: var(--global-link-color-hover);
+  }
+</style>

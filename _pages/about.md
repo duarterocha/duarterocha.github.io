@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a **PhD Researcher in Fluid Dynamics** at the [Physics of Fluids Department](https://pof.tnw.utwente.nl/), University of Twente, working under the supervision of [Christian Diddens](https://scholar.google.nl/citations?user=3QSyucwAAAAJ&hl=nl) and [Detlef Lohse](https://scholar.google.com/citations?user=WvP_pIUAAAAJ&hl=en). My research is part of the Industrial Partnership Programme [*"Fundamental Fluid Dynamics Challenges in Inkjet Printing"*](https://www.nwo.nl/en/projects/kich2v4c20001), in collaboration with [Canon Production Printing](https://cpp.canon/).
+I am a **PhD Researcher in Fluid Dynamics** at the [Physics of Fluids Department](https://pof.tnw.utwente.nl/), [University of Twente](https://www.utwente.nl/en/), working under the supervision of [Christian Diddens](https://scholar.google.nl/citations?user=3QSyucwAAAAJ&hl=nl) and [Detlef Lohse](https://scholar.google.com/citations?user=WvP_pIUAAAAJ&hl=en). My research is part of the Industrial Partnership Programme [*"Fundamental Fluid Dynamics Challenges in Inkjet Printing"*](https://www.nwo.nl/en/projects/kich2v4c20001), in collaboration with [Canon Production Printing](https://cpp.canon/).
 
-My work focuses on **evaporation-driven flows and interfacial phenomena in multicomponent droplets at the microscale**, investigated through computational fluid dynamics (CFD) and the finite element method (FEM). I have a strong interest in building physics-based simulation frameworks and translating fundamental fluid dynamics into robust numerical tools for industrial R&D.
+My work focuses on **evaporation-driven flows and interfacial phenomena in multicomponent droplets at the microscale**, investigated through CFD, using the FEM software package [pyoomph](https://pyoomph.github.io/), which I have helped develop. I have a strong interest in building physics-based simulation frameworks and translating fundamental fluid dynamics into robust numerical tools for industrial R&D.
 
 I am detail-oriented and genuinely curious — I find that the best insights come from conversations, not just calculations. When not staring at my computer, I stay active through CrossFit, hiking, cycling, team sports and other outdoor activities.
 
